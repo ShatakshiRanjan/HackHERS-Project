@@ -290,3 +290,23 @@ html {
     display: block;
   }
 }
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  background-color: #000;
+}
+
+.block {
+  flex: 1; /* Each block takes up equal space */
+  padding: 20px; /* Add padding for spacing */
+  margin: 0 10px; /* Optional: add margin for spacing between blocks */
+}
+
+/* Optional: Adjust styles as needed */
+h2 {
+  color: #fffbfb;
+}
+
+p {
+  color: #d1caca;
+}
