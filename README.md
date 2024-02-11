@@ -10,4 +10,4 @@ Seima A
 
 
 # Game Access Link:
-https://shatakshiranjan.github.io/HackHERS-Project/Web/
+https://shatakshiranjan.github.io/HackHERS-Project/Game/
