@@ -83,10 +83,17 @@ footer {
     background-color: #152227;
 }
 
+.button-container {
+    position: fixed;
+    top: 92%;
+    right: 20px; /* Adjust to move the button horizontally */
+    transform: translateY(-50%);
+}
+
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #e6dfdd;
+    background-color: #152227;
     border: none;
     color: #FFFFFF;
     text-align: center;
