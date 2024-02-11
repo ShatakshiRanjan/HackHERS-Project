@@ -162,7 +162,7 @@ footer {
    
   .slide-wrapper {
     width: calc(728px * 5);
-    animation: slide 40s;
+    animation: slide 50s;
   }
    
   /* Set the background color
@@ -212,7 +212,7 @@ footer {
 
     100% {
         margin-left: calc(-728px * 4);
-      }
+    }
   }
 
   .include {
