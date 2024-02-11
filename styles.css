@@ -147,7 +147,6 @@ footer {
     }
 }
    
-  /* Styling the area of the slides */
   #slideshow {
     overflow: hidden;
     height: 510px;
@@ -155,24 +154,15 @@ footer {
     margin: 0 auto;
   }
    
-  /* Style each of the sides 
-  with a fixed width and height */
   .slide {
     float: left;
     height: 510px;
     width: 728px;
   }
    
-  /* Add animation to the slides */
   .slide-wrapper {
-     
-  /* Calculate the total width on the
-    basis of number of slides */
     width: calc(728px * 4);
-   
-  /* Specify the animation with the
-    duration and speed */
-    animation: slide 10s;
+    animation: slide 40s;
   }
    
   /* Set the background color
