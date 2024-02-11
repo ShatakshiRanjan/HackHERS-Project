@@ -105,3 +105,80 @@ nav {
         margin: 4px 0;
     }
 }
+   
+  /* Styling the area of the slides */
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+   
+  /* Style each of the sides 
+  with a fixed width and height */
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+   
+  /* Add animation to the slides */
+  .slide-wrapper {
+     
+  /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(728px * 4);
+   
+  /* Specify the animation with the
+    duration and speed */
+    animation: slide 30s;
+  }
+   
+  /* Set the background color
+  of each of the slides */
+  .slide:nth-child(1) {
+    background: rgb(138, 149, 138);
+    align-items: center;
+  }
+   
+  .slide:nth-child(2) {
+    background: rgb(138, 149, 138);
+  }
+   
+  .slide:nth-child(3) {
+    background: rgb(138, 149, 138);
+  }
+   
+  .slide:nth-child(4) {
+    background: rgb(138, 149, 138);
+  }
+   
+  /* Define the animation 
+  for the slideshow */
+  @keyframes slide {
+     
+  /* Calculate the margin-left for 
+    each of the slides */
+    25% {
+      margin-left: 0px;
+    }
+   
+    50% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    75% {
+      margin-left: calc(-728px * 2);
+    }
+   
+    100% {
+      margin-left: calc(-728px * 3);
+    }
+  }
+
+  .include {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100%; /* Make sure the container takes the full height */
+}
